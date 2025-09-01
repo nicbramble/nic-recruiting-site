@@ -27,9 +27,8 @@ jobs:
           node-version: 20
           cache: 'npm'
 
-     - name: Install
+      - name: Install
         run: npm install
-
 
       - name: Build (with repo-aware base path)
         run: npm run build -- --base="/${{ github.event.repository.name }}/"
