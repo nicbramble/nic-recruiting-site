@@ -1,9 +1,10 @@
 export function Nav() {
   const items = [
     { href: "#story", label: "Story" },
-    { href: "#achievements", label: "Achievements" },
+    { href: "#why", label: "Why D2D" },
+    { href: "#training", label: "Training" },
     { href: "#stats", label: "Stats" },
-    { href: "#testimonials", label: "Testimonials" },
+    { href: "#pay", label: "Pay" },
     { href: "#faq", label: "FAQ" },
   ];
   return (
