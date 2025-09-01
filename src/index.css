@@ -3,5 +3,21 @@
 @tailwind utilities;
 
 /* Apple-like subtle smoothing */
-html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+html { 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+}
+
 .prose { color: #444; }
+
+/* Smooth scroll so nav links slide instead of jump */
+html { 
+  scroll-behavior: smooth; 
+}
+
+/* On mobile, make sure sections don't hide under sticky nav */
+@media (max-width: 768px) {
+  section { 
+    scroll-margin-top: 56px; 
+  }
+}
