@@ -1,9 +1,7 @@
 import { Nav } from './components/Nav'
 import { Hero } from './components/Hero'
 import { Story } from './components/Story'
-import { Achievements } from './components/Achievements'
 import { Stats } from './components/Stats'
-import { Testimonials } from './components/Testimonials'
 import { FAQ } from './components/FAQ'
 import { CTA } from './components/CTA'
 import { Footer } from './components/Footer'
@@ -20,10 +18,8 @@ export default function App() {
       <WhyD2D />
       <Story />
       <Training />
-      <Achievements />
       <Stats />
       <PayScale />
-      <Testimonials />
       <FAQ />
       <CTA />
       <Footer />
